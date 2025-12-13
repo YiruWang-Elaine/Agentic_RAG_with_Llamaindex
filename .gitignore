@@ -1,0 +1,29 @@
+# 1. Python 编译和缓存文件
+*.pyc
+__pycache__/
+*.pyd
+.ipynb_checkpoints/
+
+# 2. 虚拟环境
+# 忽略常见的虚拟环境目录名称
+venv/
+.venv/
+env/
+/bin
+/include
+/lib
+/lib64
+/pyvenv.cfg
+/share
+
+# 3. 本地配置和敏感文件
+# 忽略包含本地敏感配置的环境变量文件
+.env
+.flaskenv
+*.ini
+*.local
+*.json.local
+
+# 4. 操作系统文件
+.DS_Store
+Thumbs.db
